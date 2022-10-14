@@ -29,11 +29,16 @@
     color: rgb(255, 255, 255); 
     display: grid; 
     gap: 5px;
-    grid-template-rows: 50px 50px 100px 100px;
-    grid-template-columns: 159px 133px 500px; 
+    grid-template-rows: 42px 42px 106px 42px;
+    grid-template-columns: 219px 141px 420px; 
     text-align: left;
-    font-size: larger;
-    padding: ;
+    font-size: 25px;
+    padding: 100px;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    width: 1320px;
+    font-weight: 700;
 
 }
 .grid1{
@@ -45,14 +50,20 @@
     grid-row: 2/3;
 }
 .grid3{
-    font-weight: bold;
-    grid-column: 3/4;
-    grid-row: 2/4;
+grid-row: 2/4;
+grid-column: 3/4 ;
+font-weight: bolder;
+font-size: 65px;
+align-content: center;
+align-items: center;
 }
 .grid4{
     grid-column: 3/4;
-    grid-row: 3/4;
+    grid-row: 4/5;
+    font-weight: 28px;
+    fon
 }
+
 .container3{
    color: #b08f5c;
    text-align: center;
